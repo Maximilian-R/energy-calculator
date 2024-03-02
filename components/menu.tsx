@@ -28,16 +28,15 @@ const Logo = styled.h2`
   text-align: center;
   font-family: "Neon", "Varela Round", sans-serif;
   font-size: 2.5rem;
-  padding: 0 1rem;
-  margin: 0 -1rem;
-  line-height: 0.7;
+  padding: 1rem;
+  margin: -1rem;
+  line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
 
   color: var(--text-color);
-  // 20px -6px 2px var(--color)
-  text-shadow: 0 2px 0px #4b9599, 0 0 10px var(--color), 0 0 20px var(--color);
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  text-shadow: 0 -2px 0px #4b9599, 0 0 10px var(--color), 0 0 20px var(--color);
+  -webkit-box-reflect: below -2.6rem linear-gradient(transparent, #0004);
 
   span {
     animation: animate 3s linear infinite;
@@ -54,7 +53,7 @@ const Logo = styled.h2`
     90.1%,
     92% {
       color: #193233;
-      text-shadow: 0 2px 0px #0c191a;
+      text-shadow: 0 -2px 0px #0c191a;
     }
     18.1%,
     20.1%,
@@ -67,7 +66,7 @@ const Logo = styled.h2`
     92.1%,
     100% {
       color: var(--text-color);
-      text-shadow: 0 2px 0px #4b9599, 0 0 10px var(--color),
+      text-shadow: 0 -2px 0px #4b9599, 0 0 10px var(--color),
         0 0 20px var(--color);
     }
   }

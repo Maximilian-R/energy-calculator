@@ -36,8 +36,8 @@ const Error = styled.h1`
   text-transform: uppercase;
 
   color: var(--text-color);
-  text-shadow: 0 2px 0px #4b9599, 0 0 10px var(--color), 0 0 20px var(--color);
-  -webkit-box-reflect: below -44px linear-gradient(transparent, #0004);
+  text-shadow: 0 -2px 0px #4b9599, 0 0 10px var(--color), 0 0 20px var(--color);
+  -webkit-box-reflect: below -1.7rem linear-gradient(transparent, #0004);
 
   span {
     animation: animate 3s linear infinite;
@@ -54,7 +54,7 @@ const Error = styled.h1`
     90.1%,
     92% {
       color: #193233;
-      text-shadow: 0 2px 0px #0c191a;
+      text-shadow: 0 -2px 0px #0c191a;
     }
     18.1%,
     20.1%,
@@ -67,7 +67,7 @@ const Error = styled.h1`
     92.1%,
     100% {
       color: var(--text-color);
-      text-shadow: 0 2px 0px #4b9599, 0 0 10px var(--color),
+      text-shadow: 0 -2px 0px #4b9599, 0 0 10px var(--color),
         0 0 20px var(--color);
     }
   }
